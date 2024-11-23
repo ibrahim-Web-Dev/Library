@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div>
+                <h1>Library</h1>
+            </div>
+            <div class="grid border button" id="addBooks">
+                <img src="assets/plus.svg" class="icon">
+                <h2> Add Books</h2>
+            </div>
+            <div class="grid border button">
+                <img src="assets/weather-sunny.svg" class="icon">
+                <h2> Mode</h2>
+            </div>
+            <div class="border hidden" id="book-adderDiv">
+                <form action="" method="post" class="grid1">
+                    
+                    <div class="tok">
+                        <label for="bookName">Enter Book Name</label>
+                        <input type="text" name="bookName" id="bookName" required>
+                    </div>
+                    <div>
+                        <label for="authorName">Enter Author Name</label>
+                        <input type="text" name="authorName" id="authorName">
+                    </div>
+                    <div>
+                        <label for="pageNumber">Enter Page Number</label>
+                        <input type="number" name="pageNumber" id="pageNumber">
+                    </div>
+
+                    <label for="ready-not">Did you read this book ?</label>
+                    <input type="checkbox" name="ready-not" id="ready-not" >
+                    <button type="button" id="addBook">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="main">
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Atomic Habits</h3>
+                </div>
+                <h3>James Clear</h3>
+                <h3>211 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Deep Work</h3>
+                </div>
+                <h3>Cal Newport</h3>
+                <h3>304 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">The Power of Habit</h3>
+                </div>
+                <h3>Charles Duhigg</h3>
+                <h3>371 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Think and Grow Rich</h3>
+                </div>
+                <h3>Napoleon Hill</h3>
+                <h3>238 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">The 7 Habits of Highly Effective People</h3>
+                </div>
+                <h3>Stephen Covey</h3>
+                <h3>381 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Mindset</h3>
+                </div>
+                <h3>Carol S. Dweck</h3>
+                <h3>276 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Grit</h3>
+                </div>
+                <h3>Angela Duckworth</h3>
+                <h3>277 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Outliers</h3>
+                </div>
+                <h3>Malcolm Gladwell</h3>
+                <h3>304 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Can't Hurt Me</h3>
+                </div>
+                <h3>David Goggins</h3>
+                <h3>364 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">The Subtle Art of Not Giving a Care</h3>
+                </div>
+                <h3>Mark Manson</h3>
+                <h3>224 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">The Alchemist</h3>
+                </div>
+                <h3>Paulo Coelho</h3>
+                <h3>208 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+            <div class="book">
+                <div class="close">
+                    <img src="assets/close-thick.svg" class="icon button flex-start closer">
+                    <h3 class="right-margin">Rich Dad Poor Dad</h3>
+                </div>
+                <h3>Robert Kiyosaki</h3>
+                <h3>336 Pages</h3>
+                <button class="button ready">Already read</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
